@@ -1,0 +1,43 @@
+.todolist h1{
+    align-items: center;
+    justify-content: center !important;
+    /* margin-left: 5cm; */
+    text-align: center;
+    color: rgb(253, 159, 159);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.todo_list{
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center;
+    position: relative;
+   
+}
+
+.todo_list input[type=text]{
+    border: 2px solid rgb(254, 204, 204);
+    width: 75%;
+    outline-color: rgb(129, 248, 169);
+    border-radius: 10px;
+    padding: 5px;
+    font-family:cursive;
+}
+
+.todo_list input[type=submit]{
+    margin-left: -1.5cm;
+    position: absolute;
+    width: 2cm;
+    padding: 5px;
+    color: rgb(165, 42, 42);
+    border: 2px solid rgb(252, 204, 204);
+    background-color: rgb(248, 129, 129);
+    border-radius: 10px;
+
+}
+
+.todo_list input[type=submit]:hover{
+color: rgb(15, 77, 4);
+   border: 2px solid rgb(209, 252, 204);
+   background-color: rgb(129, 248, 169);
+}

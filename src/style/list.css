@@ -1,0 +1,38 @@
+.click{
+    cursor: pointer;
+}
+
+.list-text1{
+   color: green;
+   font-family:'Courier New', Courier, monospace;
+}
+
+.list-text2{
+    color: red;
+   font-family:'Courier New', Courier, monospace;
+    
+}
+
+li{
+    width: 100% !important; 
+    border: 2px solid rgb(254, 204, 204) !important;
+    border-radius: 10px !important;
+    margin-top: 10px !important;
+    /* margin-bottom: 0px; */
+    /* padding: 0px; */
+}
+
+.tick{
+    font-weight: 1000;
+   color: green;
+}
+
+.timer1{
+    color: green;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.timer2{
+    color:red;
+    font-family:'Courier New', Courier, monospace;
+}
